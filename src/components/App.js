@@ -11,7 +11,7 @@ useCount(count+1)
   }
   return (
     <div>
-      <p >Button clicked  {count} {count === 1 ? 'time' : 'times'}</p>
+      <p >Button clicked {count} items</p>
         <button onClick={handleClick}>Click Me</button>
     </div>
   )
